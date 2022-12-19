@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="title">Tash [1.0.0]</title>
+    <link rel="stylesheet" href="./assets/css/lander.css" />
+    <link rel="stylesheet" href="./assets/css/cards.css" />
+    <link rel="stylesheet" href="./assets/css/modal.css" />
+    <link rel="stylesheet" href="./assets/css/filter.css" />
+    <script src="./assets/js/searchcards.js" defer></script>
+  </head>
+  <body>
+    <div class="containersearch">
+      <div class="componentsmd">
+          <input id="search" type="text" class="search__input" placeholder="Search by Sitename..." data-search></input>
+      </div>
+    </div>
+    <div class="componentslg">
+      <main class="containeritems page-content" data-site-cards-container></main>
+      <template data-site-template>
+        <div class="card">
+          <div class="content">
+            <div class="title" data-title></div>
+            <div class="tag1" data-tag1></div>
+            <div class="tag2" data-tag2></div>
+            <div class="tag3" data-tag3></div>
+            <div class="tag4" data-tag4></div>
+            <div class="tag5" data-tag5></div>
+            <!-- <button class="btn">View credentials</button> -->
+          </div>
+        </div>    
+      </template>
+    </div>
+  </body>
+</html>
