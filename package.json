@@ -1,8 +1,8 @@
 {
   "name": "tashtash",
   "productName": "tashtash",
-  "version": "1.0.0",
-  "description": "My Electron application description",
+  "version": "1.2.0",
+  "description": "This app is a collection of sites that's active, under Onix Media",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",

@@ -14,7 +14,7 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-fetch("./assets/json/general.json")
+fetch("G:/tashApp/general.json")
   .then(res => res.json())
   .then(data => {
     sites = data.map(site => {

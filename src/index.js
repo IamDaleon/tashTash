@@ -15,7 +15,6 @@ const createWindow = () => {
     frame: true, 
     autoHideMenuBar: true,
     backgroundColor: 'black',
-    icon: path.join(__dirname, 'assets/Icon/HoloDock.icns'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.js'),
     },
