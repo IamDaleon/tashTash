@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">A minimal URL info, desktop app for internal usage only, built on <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+<h4 align="center">A minimal URL info collection, desktop app for internal usage only, built on <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
 <!-- <p align="center">
   <a href="https://badge.fury.io/js/electron-markdownify">
     <img src="https://badge.fury.io/js/electron-markdownify.svg"
