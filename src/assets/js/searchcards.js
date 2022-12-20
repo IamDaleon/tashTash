@@ -14,7 +14,7 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-fetch("G:/tashApp/general.json")
+fetch("G:/tashApp/general.json") //Link your Json file here
   .then(res => res.json())
   .then(data => {
     sites = data.map(site => {
