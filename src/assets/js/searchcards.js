@@ -26,6 +26,7 @@ fetch("G:/tashApp/general.json") //Link your Json file here
       const tag4 = card.querySelector("[data-tag4]")
       const tag5 = card.querySelector("[data-tag5]")
       const tag6 = card.querySelector("[data-tag6]")
+      const tag7 = card.querySelector("[data-tag7]")
       header.textContent = site.sitename
       tag1.textContent = `Hosted by: ${site.hosted}`
       tag2.textContent = `Renewal Date: ${site.renewal}`
@@ -33,7 +34,11 @@ fetch("G:/tashApp/general.json") //Link your Json file here
       tag4.textContent = `Wordpress Version: ${site.wpv}`
       tag5.textContent = `Access: ${site.access}`
       tag6.textContent = `Backup Date: ${site.backup}`
+      tag7.textContent = `SSL EXP: ${site.ssl}`
       siteCardContainer.append(card)
-      return { sitename: site.sitename, sitehosted: site.hosted, siterenewal: site.renewal, sitewpv: site.wpv, sitephp: site.phpv, siteaccess: site.access, sitebackup: site.backup, element: card }
+      return { sitename: site.sitename, sitehosted: site.hosted, 
+        siterenewal: site.renewal, sitewpv: site.wpv, sitephp: site.phpv, 
+        siteaccess: site.access, sitebackup: site.backup, sitessl: site.ssl, 
+        element: card }
     })
   })

@@ -1,7 +1,7 @@
 {
   "name": "tashtash",
   "productName": "tashtash",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "This app is a collection of sites that's active, under Onix Media",
   "main": "src/index.js",
   "scripts": {
